@@ -17,8 +17,9 @@ function App() {
     <div className="App bg-white h-screen ">
 
 
-      <main className="flex justify-between space-x-16 px-8 pt-10 md:px-52 md:pt-20 bg-white text-gray-800 text-xl font-poppins">
+      <main className="flex flex-col space-y-8 justify-between px-8 pt-10 md:flex-row md:space-x-16 md:px-52 md:pt-20 bg-white text-gray-800 text-xl font-poppins">
 
+        {/* landing -> hero text */}
         <div className="flex justify-between flex-col space-y-6">
           <div className="flex flex-col space-y-10">
 
@@ -54,9 +55,10 @@ function App() {
           </div>
         </div>
 
+        {/* landing -> image */}
         <animated.div style={{
           transform: spring.myXTranslateValue.interpolate(myXTranslateValue => `translate(${myXTranslateValue}px)`),
-        }} className="relative w-72 bg-yellow-100 pb-5/12 flex-none">
+        }} className="flex flex-col relative w-72  pb-5/12 flex-none h-96">
           <img className="absolute top-0 h-full w-full object-cover content-end border-4 border-gray-700 hover:shadow-lg transition-all duration-300 " src="https://images.pexels.com/photos/196646/pexels-photo-196646.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" />
         </animated.div>
 
