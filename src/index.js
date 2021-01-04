@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/css/tailwind.css';
-import App from './App';
-import Nav from './components/Nav'
 import reportWebVitals from './reportWebVitals';
+
+//components
+import App from './components/App';
+import Nav from './components/Nav'
+import AdCopy from './components/AdCopy'
 
 ReactDOM.render(
   <React.StrictMode>
     <Nav />
     <App />
+    <AdCopy />
   </React.StrictMode>,
   document.getElementById('root')
 );

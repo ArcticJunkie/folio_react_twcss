@@ -2,7 +2,7 @@ import Typical from 'react-typical';
 
 function TypeWriter() {
     return (
-        <span className="inline font-poppins"><Typical
+        <span className=" font-poppins"><Typical
             loop={2}
             wrapper="n"
             steps={[
@@ -12,7 +12,7 @@ function TypeWriter() {
                 ' interfaces.',
                 2250,
                 ' websites.',
-                8000
+                6000
             ]}
         /></span>
     );

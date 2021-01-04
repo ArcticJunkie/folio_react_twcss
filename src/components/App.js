@@ -1,7 +1,7 @@
 
 //components
-import HeroImage from './components/HeroImage'
-import TypeWriter from './components/TypeWriter';
+import HeroImage from './HeroImage'
+import TypeWriter from './TypeWriter';
 
 function App() {
   return (
