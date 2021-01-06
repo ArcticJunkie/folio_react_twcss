@@ -5,7 +5,7 @@ import TypeWriter from './TypeWriter';
 
 function App() {
   return (
-    <div className="App bg-gray-50 h-screen">
+    <div className="App bg-pink-50 h-screen">
 
 
       <main className="flex flex-col space-y-8 justify-between px-8 pt-10 md:flex-row md:space-y-0 md:space-x-16 md:px-52 md:pt-20  text-gray-800 text-xl font-poppins">
