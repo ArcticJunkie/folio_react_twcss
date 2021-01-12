@@ -3,7 +3,7 @@ import { useSpring, animated } from 'react-spring'
 function HeroImage() {
     const spring = useSpring({
         from: {
-            myXTranslateValue: 60,
+            myXTranslateValue: 30,
         },
         to: {
             myXTranslateValue: 0,
