@@ -12,7 +12,6 @@ ReactDOM.render(
   <React.StrictMode>
     <Nav />
     <App />
-    <AdCopy />
   </React.StrictMode>,
   document.getElementById('root')
 );
