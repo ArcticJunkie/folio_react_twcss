@@ -14,14 +14,13 @@ function App() {
         <div className="flex justify-between flex-col space-y-6">
           <div className="flex flex-col space-y-10">
             <div className="flex flex-col space-y-6 font-semibold">
-              <span className="">Abhinav Verma</span>
-              <span className="text-lg md:text-xl">I  {' '}
+              <span className="text-lg md:text-xl">Abhinav Verma</span>
+              <span className="text-base md:text-xl">I  {' '}
                 <a href="https://dribbble.com/navs_lists" target="_blank" className="group relative"><span className="relative z-20 italic font-semibold group-hover:text-blue-800 ">design</span><i className="absolute opacity-60 z-10 left bottom-1 inset-x-0 bg-blue-300 h-1.5 group-hover:h-3 transition-height duration-200 ease-in-out "></i></a>
                 {' '}and{' '}
                 <a href="https://github.com/navs-github" target="_blank" className="group relative"><span className="relative z-20 font-mono font-semibold group-hover:text-blue-800">&lt;develop/&gt;</span><i className="absolute opacity-60 z-10 left bottom-1 inset-x-0 bg-blue-300 h-1.5 group-hover:h-3 transition-height duration-200 ease-in-out"></i></a>
                 <TypeWriter /></span>
-
-              <span className="font-normal text-normal leading-relaxed">I slot-in throughout the digital product life-cycle; taking a big-picture approach to projects, I strive to contribute at every stage, from concept to delivery.</span>
+              <span className="font-normal text-base md:text-xl leading-relaxed">I slot-in throughout the digital product life-cycle; taking a big-picture approach to projects, I strive to contribute at every stage, from concept to delivery.</span>
             </div>
 
             <div className="flex flex-row space-x-8 text-gray-500 text-sm md:text-base">
@@ -31,7 +30,7 @@ function App() {
             </div>
           </div>
 
-          <div className=" text-sm text-gray-500">
+          <div className="text-xs md:text-sm text-gray-500">
             <span>Job opportunities are warmly welcomed. </span>
             <span className="block">I’m searching for a full-time position at an agency or startup.</span>
           </div>
