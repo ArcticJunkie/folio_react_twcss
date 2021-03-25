@@ -12,9 +12,9 @@ function Nav() {
                     <li className="hover:underline hover:text-black"><a href="https://drive.google.com/file/d/1Otetlcvefv3eI3Q6Amucy05LpFxOnY5a/view?usp=sharing" target="_blank">Resume</a></li>
                 </ul>
                 <ul className="flex md:hidden flex-row items-center justify-evenly space-x-8 text-gray-600 text-2xl">
-                    <li className=""><a href="" className="https://www.linkedin.com/in/nav-verma/"><i class="fab fa-linkedin"></i></a></li>
-                    <li className=""><a href="" className="https://dribbble.com/navs-dribbble"><i class="fab fa-dribbble-square"></i></a></li>
-                    <li className=""><a href="" className="https://github.com/navs-github"><i class="fab fa-github-square"></i></a></li>
+                    <li className=""><a href="https://www.linkedin.com/in/nav-verma/" className="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li className=""><a href="https://dribbble.com/navs-dribbble" className="" target="_blank"><i class="fab fa-dribbble-square"></i></a></li>
+                    <li className=""><a href="https://github.com/navs-github" className="" target="_blank"><i class="fab fa-github-square"></i></a></li>
                 </ul>
             </nav>
         </div>
