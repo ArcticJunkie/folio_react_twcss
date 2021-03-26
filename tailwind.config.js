@@ -42,7 +42,8 @@ module.exports = {
         'height': 'height'
       },
       fontFamily: {
-        poppins: ['Poppins']
+        poppins: ['Poppins'],
+        dmono: ['DM Mono']
       },
     },
   },

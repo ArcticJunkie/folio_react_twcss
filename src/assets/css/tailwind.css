@@ -11842,6 +11842,10 @@ video {
   font-family: Poppins;
 }
 
+.font-dmono {
+  font-family: DM Mono;
+}
+
 .font-thin {
   font-weight: 100;
 }
@@ -46409,6 +46413,10 @@ video {
     font-family: Poppins;
   }
 
+  .sm\:font-dmono {
+    font-family: DM Mono;
+  }
+
   .sm\:font-thin {
     font-weight: 100;
   }
@@ -80931,6 +80939,10 @@ video {
 
   .md\:font-poppins {
     font-family: Poppins;
+  }
+
+  .md\:font-dmono {
+    font-family: DM Mono;
   }
 
   .md\:font-thin {
@@ -115457,6 +115469,10 @@ video {
     font-family: Poppins;
   }
 
+  .lg\:font-dmono {
+    font-family: DM Mono;
+  }
+
   .lg\:font-thin {
     font-weight: 100;
   }
@@ -149981,6 +149997,10 @@ video {
     font-family: Poppins;
   }
 
+  .xl\:font-dmono {
+    font-family: DM Mono;
+  }
+
   .xl\:font-thin {
     font-weight: 100;
   }
@@ -184503,6 +184523,10 @@ video {
 
   .\32xl\:font-poppins {
     font-family: Poppins;
+  }
+
+  .\32xl\:font-dmono {
+    font-family: DM Mono;
   }
 
   .\32xl\:font-thin {

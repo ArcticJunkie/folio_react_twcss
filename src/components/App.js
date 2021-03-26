@@ -18,7 +18,7 @@ function App() {
               <span className="text-base md:text-xl xl:text-2xl">I  {' '}
                 <a href="https://dribbble.com/navs-dribbble" target="_blank" className="group relative"><span className="relative z-20 italic font-semibold group-hover:text-blue-800 ">design</span><i className="absolute opacity-60 z-10 left bottom-1 inset-x-0 bg-blue-300 h-1.5 group-hover:h-3 transition-height duration-200 ease-in-out "></i></a>
                 {' '}and{' '}
-                <a href="https://github.com/navs-github" target="_blank" className="group relative"><span className="relative z-20 font-mono font-semibold group-hover:text-blue-800">&lt;develop/&gt;</span><i className="absolute opacity-60 z-10 left bottom-1 inset-x-0 bg-blue-300 h-1.5 group-hover:h-3 transition-height duration-200 ease-in-out"></i></a>
+                <a href="https://github.com/navs-github" target="_blank" className="group relative"><span className="relative z-20 font-dmono font-semibold group-hover:text-blue-800">&lt;develop/&gt;</span><i className="absolute opacity-60 z-10 left bottom-1 inset-x-0 bg-blue-300 h-1.5 group-hover:h-3 transition-height duration-200 ease-in-out"></i></a>
                 <TypeWriter /></span>
               <span className="font-normal text-base md:text-xl xl:text-2xl leading-relaxed">I slot-in throughout the digital product life-cycle; taking a big-picture approach to projects, I strive to contribute at every stage, from concept to delivery.</span>
             </div>
