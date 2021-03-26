@@ -8,7 +8,7 @@ function App() {
     <div className="App h-screen bg-blue-50">
 
 
-      <main className="flex flex-col space-y-8 justify-between px-8 pt-10 md:px-36 lg:px-52 md:pt-20 md:flex-row md:space-y-0 md:space-x-16  text-gray-800 text-xl font-poppins">
+      <main className="flex flex-col space-y-8 justify-between px-8 pt-10 md:px-36 md:pt-20 lg:px-52 lg:pt-28 xl:px-72 xl:pt-32  md:flex-row md:space-y-0 md:space-x-16  text-gray-800 text-xl font-poppins">
 
         {/* landing -> hero text */}
         <div className="flex justify-between flex-col space-y-6">
