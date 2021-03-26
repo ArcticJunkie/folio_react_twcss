@@ -3,7 +3,7 @@
 function Nav() {
     return (
         <div className="Nav text-gray-700">
-            <nav className="bg-blue-50 flex flex-row items-center justify-between px-8 py-8 md:px-36 md:py-8 lg:px-52 lg:pt-28 xl:px-96 xl:pt-32">
+            <nav className="bg-blue-50 flex flex-row items-center justify-between px-8 py-8 md:px-36 md:py-8 lg:px-52 lg:py-12 xl:px-96 xl:py-16">
                 <div className="font-bold font-dmono text-2xl xl:text-3xl hover:text-blue-700 mr-16 md:mr-52"><a href="#" className="">AV</a></div>
                 <ul className="hidden md:flex flex-row justify-evenly space-x-12 font-dmono  text-base xl:-text-lg">
                     <li className="hover:underline hover:text-black"><a href="https://www.linkedin.com/in/nav-verma/" target="_blank">LinkedIn</a></li>
