@@ -77,7 +77,7 @@ function Works() {
                         <div className="flex flex-col lg:flex-row mt-6">
                             <div className="flex flex-col space-y-4  lg:flex-row lg:space-x-4 lg:space-y-0">
                                 <div className="">
-                                    <a href="https://navs-unicodes.vercel.app" target=" _blank"><img src={grades} alt="" className="object-contain rounded-md shadow-lg w-160" /></a>
+                                    <a href="https://dribbble.com/navs-dribbble" target=" _blank"><img src={grades} alt="" className="object-contain rounded-md shadow-lg w-160" /></a>
                                 </div>
                                 <ul className="flex flex-row space-x-4 lg:flex-col lg:space-y-4 lg:space-x-0 text-xs lg:text-sm font-medium whitespace-nowrap">
                                     <li className="">UX Research</li>
