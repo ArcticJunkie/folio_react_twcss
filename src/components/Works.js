@@ -56,11 +56,11 @@ function Works() {
                             <span className="text-sm leading-tight lg:text-base text-gray-700">navs-unicodes is a React app that allows access to special characters via quick keyword search. Allows users to copy these characters to their clipboards in seconds, designed to speed up essay and technical report writing.</span>
                         </div>
                         <div className="flex flex-col lg:flex-row mt-6">
-                            <div className="flex flex-col space-y-4  lg:flex-row lg:space-x-4">
+                            <div className="flex flex-col space-y-4  lg:flex-row lg:space-x-4 lg:space-y-0">
                                 <div className="">
                                     <a href="https://navs-unicodes.vercel.app" target=" _blank"><img src={unicodes} alt="" className="object-contain rounded-md shadow-lg w-160" /></a>
                                 </div>
-                                <ul className="flex flex-row space-x-4 lg:flex-col lg:space-y-4 text-sm font-medium whitespace-nowrap">
+                                <ul className="flex flex-row space-x-4 lg:flex-col lg:space-y-4 lg:space-x-0 text-sm font-medium whitespace-nowrap">
                                     <li className="">UI Design</li>
                                     <li className="">ReactJS</li>
                                     <li className="">TailwindCSS</li>
@@ -72,14 +72,14 @@ function Works() {
                     <div className="flex flex-col">
                         <a href="https://dribbble.com/navs-dribbble" target=" _blank"><span className="text-lg lg:text-2xl font-medium">Webadvisor Redesign</span></a>
                         <div className=" lg:w-160 mt-2">
-                            <span className="text-sm leading-tight lg:text-base text-gray-700">A redesign of University of Guelph’s administration portal. Designed to elevate the student user experience.</span>
+                            <span className="text-sm leading-tight lg:text-base lg:leading-normal text-gray-700">A redesign of University of Guelph’s administration portal. Designed to elevate the student user experience.</span>
                         </div>
                         <div className="flex flex-col lg:flex-row mt-6">
-                            <div className="flex flex-col space-y-4  lg:flex-row lg:space-x-4">
+                            <div className="flex flex-col space-y-4  lg:flex-row lg:space-x-4 lg:space-y-0">
                                 <div className="">
                                     <a href="https://navs-unicodes.vercel.app" target=" _blank"><img src={grades} alt="" className="object-contain rounded-md shadow-lg w-160" /></a>
                                 </div>
-                                <ul className="flex flex-row space-x-4 lg:flex-col lg:space-y-4 text-sm font-medium whitespace-nowrap">
+                                <ul className="flex flex-row space-x-4 lg:flex-col lg:space-y-4 lg:space-x-0 text-sm font-medium whitespace-nowrap">
                                     <li className="">UX Research</li>
                                     <li className="">User Interviews</li>
                                     <li className="">UI Design</li>

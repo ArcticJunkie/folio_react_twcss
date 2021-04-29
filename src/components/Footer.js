@@ -3,7 +3,7 @@
 function Footer() {
     return (
         <div className="px-8 py-4 md:px-36 md:py-5 lg:px-52 lg:py-10 xl:px-96 xl:pt-32 bg-blue-50 text-gray-700 text-xs lg:text-base">
-            <div className="flex flex-row space-x-8 lg:space-x-36">
+            <div className="flex flex-row justify-between space-x-8 lg:space-x-36">
                 <div className="w-36 lg:w-64">
                     <span className="">website powered by <span className="font-bold text-gray-900">React</span> and <span className="font-bold text-gray-900">Tailwindcss.</span> deployed with <span className="font-bold text-gray-900">Vercel.</span></span>
                 </div>
