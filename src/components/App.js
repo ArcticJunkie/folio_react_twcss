@@ -1,6 +1,6 @@
 
 //components
-import HeroImage from './HeroImage'
+import HeroImageAlt from './HeroImageAlt';
 import TypeWriter from './TypeWriter';
 
 function App() {
@@ -8,12 +8,12 @@ function App() {
     <div className="App h-screen bg-blue-50">
 
 
-      <main className="flex flex-col space-y-8 justify-between px-8 pt-10 md:px-36 md:pt-20 lg:px-52 lg:pt-28 xl:px-96 xl:pt-32 md:flex-row md:space-y-0 md:space-x-16  text-gray-800 text-xl font-poppins">
+      <main className="flex flex-col space-y-8 justify-between px-8 pt-10 md:px-36 md:pt-12 lg:px-52 lg:pt-16 xl:px-96 xl:pt-32 md:flex-row md:space-y-0 md:space-x-16  text-gray-800 text-xl font-poppins">
 
         {/* landing -> hero text */}
         <div className="flex justify-between flex-col space-y-6 xl:space-y-8">
           <div className="flex flex-col space-y-10">
-            <div className="flex flex-col space-y-6 xl:space-y-8 font-semibold">
+            <div className="flex flex-col space-y-7 xl:space-y-8 font-semibold">
               <span className="text-lg md:text-xl xl:text-2xl">Abhinav Verma</span>
               <span className="text-base md:text-xl xl:text-2xl">I  {' '}
                 <a href="https://dribbble.com/navs-dribbble" target="_blank" className="group relative"><span className="relative z-20 italic font-semibold group-hover:text-blue-800 ">design</span><i className="absolute opacity-60 z-10 left bottom-1 inset-x-0 bg-blue-300 h-1.5 group-hover:h-3 transition-height duration-200 ease-in-out "></i></a>
@@ -37,7 +37,7 @@ function App() {
         </div>
 
         {/* landing -> image */}
-        <HeroImage />
+        <HeroImageAlt />
       </main>
 
 

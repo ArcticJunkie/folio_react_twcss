@@ -4,14 +4,19 @@ import './assets/css/tailwind.css';
 import reportWebVitals from './reportWebVitals';
 
 //components
-import App from './components/App';
 import Nav from './components/Nav'
-import AdCopy from './components/AdCopy'
+import About from './components/About'
+import Landing from './components/Landing'
+import Works from './components/Works'
+import Footer from './components/Footer'
+
 
 ReactDOM.render(
   <React.StrictMode>
     <Nav />
-    <App />
+    <Landing />
+    <Works />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -20,3 +25,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
