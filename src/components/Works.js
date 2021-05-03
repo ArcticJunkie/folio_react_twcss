@@ -46,47 +46,72 @@ function Works() {
     // };
 
     return (
-        <div className="App h-full bg-gray-50 text-gray-800 font-poppins font-light text-xl">
-            <main className="flex flex-col space-y-4 justify-between px-8 pt-10 pb-20 md:px-36 md:pt-12 lg:px-52 lg:pt-16 xl:px-96 xl:pt-32 text-gray-800 text-xl font-poppins">
-                <span className="text-2xl lg:text-4xl font-light">Work</span>
-                <div className="flex flex-col space-y-16">
+        <div className="App h-full  text-gray-800 font-poppins font-light text-xl">
+            <main className="flex flex-col space-y-12 justify-between px-8 pt-10 xl:px-52 xl:py-32 text-gray-800 text-xl font-poppins">
+                <span className="text-2xl xl:text-4xl font-normal">Work</span>
+                <div className="flex flex-col space-y-32">
                     <div className="flex flex-col">
-                        <a href="https://navs-unicodes.vercel.app" target=" _blank"><span className="text-lg lg:text-2xl font-medium">navs-unicodes</span></a>
-                        <div className=" lg:w-160 mt-2">
-                            <span className="text-sm leading-tight font-normal lg:font-light lg:text-base text-gray-700">navs-unicodes is a React app that allows access to special characters via quick keyword search. Allows users to copy these characters to their clipboards in seconds, designed to speed up essay and technical report writing.</span>
+                        <a href="https://navs-unicodes.vercel.app" target=" _blank"><span className="text-lg xl:text-2xl font-medium font-dmono">navs-unicodes</span></a>
+                        <div className="xl:w-160 mt-2">
+                            <span className="text-sm leading-tight  font-normal xl:font-normal xl:text-base text-gray-700">A React app that allows access to special characters via quick keyword search. Allows users to copy these characters to their clipboards in seconds, designed to speed up essay and technical report writing.</span>
                         </div>
-                        <div className="flex flex-col lg:flex-row mt-6">
-                            <div className="flex flex-col space-y-4  lg:flex-row lg:space-x-4 lg:space-y-0">
+                        <div className="flex flex-col xl:flex-row mt-6">
+                            <div className=" flex flex-col space-y-4  xl:flex-row xl:space-x-8 xl:space-y-0">
                                 <div className="">
-                                    <a href="https://navs-unicodes.vercel.app" target=" _blank"><img src={unicodes} alt="" className="object-contain rounded-md shadow-lg w-160" /></a>
+                                    <a href="https://navs-unicodes.vercel.app" target=" _blank"><img src={unicodes} alt="" className="object-contain rounded-sm shadow-sm w-160" /></a>
                                 </div>
-                                <ul className="flex flex-row space-x-4 lg:flex-col lg:space-y-4 lg:space-x-0 text-xs lg:text-sm font-medium whitespace-nowrap">
-                                    <li className="">UI Design</li>
-                                    <li className="">ReactJS</li>
-                                    <li className="">TailwindCSS</li>
-                                    <li className="">Vercel</li>
-                                </ul>
+                                <div className="flex flex-row space-x-10 xl:flex-col xl:space-y-4 xl:space-x-0 text-xs xl:text-sm font-normal whitespace-nowrap">
+                                    <div className="flex flex-col space-y-2">
+                                        <span className="font-dmono font-bold">Design</span>
+                                        <ul className="flex flex-col space-y-2">
+                                            <li className="">User Interface Design</li>
+                                            <li className="">Figma</li>
+                                        </ul>
+                                    </div>
+                                    <div className="flex flex-col space-y-2">
+                                        <span className="font-dmono font-bold">Development</span>
+                                        <ul className="flex flex-col space-y-2">
+                                            <li className="">ReactJS</li>
+                                            <li className="">TailwindCSS</li>
+                                            <li className="">Vercel</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-col">
-                        <a href="https://dribbble.com/navs-dribbble" target=" _blank"><span className="text-lg lg:text-2xl font-medium">Webadvisor Redesign</span></a>
-                        <div className=" lg:w-160 mt-2">
-                            <span className="text-sm leading-tight font-normal lg:font-light lg:text-base lg:leading-normal text-gray-700">A redesign of University of Guelph’s administration portal. Designed to elevate the student user experience.</span>
+                        <a href="https://dribbble.com/navs-dribbble" target=" _blank"><span className="text-lg xl:text-2xl font-medium font-dmono">Webadvisor Redesign</span></a>
+                        <div className="xl:w-160 mt-2">
+                            <span className="text-sm leading-tight  font-normal xl:font-normal xl:text-base text-gray-700">A redesign of University of Guelph’s administration portal. Designed to elevate the student user experience.</span>
                         </div>
-                        <div className="flex flex-col lg:flex-row mt-6">
-                            <div className="flex flex-col space-y-4  lg:flex-row lg:space-x-4 lg:space-y-0">
+                        <div className="flex flex-col xl:flex-row mt-6">
+                            <div className=" flex flex-col space-y-4  xl:flex-row xl:space-x-8 xl:space-y-0">
                                 <div className="">
-                                    <a href="https://dribbble.com/navs-dribbble" target=" _blank"><img src={grades} alt="" className="object-contain rounded-md shadow-lg w-160" /></a>
+                                    <a href="https://dribbble.com/navs-dribbble" target=" _blank"><img src={grades} alt="" className="object-contain rounded-sm shadow-sm w-160" /></a>
                                 </div>
-                                <ul className="flex flex-row space-x-4 lg:flex-col lg:space-y-4 lg:space-x-0 text-xs lg:text-sm font-medium whitespace-nowrap">
-                                    <li className="">UX Research</li>
-                                    <li className="">User Interviews</li>
-                                    <li className="">UI Design</li>
-                                </ul>
+                                <div className="flex flex-row space-x-4 xl:flex-col xl:space-y-4 xl:space-x-0 text-xs xl:text-sm font-normal whitespace-nowrap">
+                                    <div className="flex flex-col space-y-2">
+                                        <span className="font-dmono font-bold">Design</span>
+                                        <ul className="flex flex-col space-y-2">
+                                            <li className="">Wireframes</li>
+                                            <li className="">User Research</li>
+                                            <li className="">User Interface Design</li>
+                                        </ul>
+                                    </div>
+                                    <div className="hidden flex flex-col space-y-2">
+                                        <span className="font-dmono font-bold">Development</span>
+                                        <ul className="flex flex-col space-y-2">
+                                            <li className="">ReactJS</li>
+                                            <li className="">TailwindCSS</li>
+                                            <li className="">Vercel</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </main>
         </div >
