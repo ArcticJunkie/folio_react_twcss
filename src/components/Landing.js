@@ -1,3 +1,5 @@
+import React from 'react';
+import { useInView } from 'react-intersection-observer';
 
 //components
 import HeroImage from './HeroImage';
@@ -6,10 +8,15 @@ import TypeWriter from './TypeWriter';
 
 
 function Landing() {
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        rootMargin: '-50px 0px',
+    });
+
     return (
         <div className="App bg-gray-50">
             {/* px-8 pt-10 md:px-36 md:pt-12 lg:px-52 lg:pt-16 xl:px-96 xl:pt-32 */}
-            <main className="pb-40 flex flex-col space-y-20 justify-between px-8 pt-16 xl:px-52 xl:pt-32   text-gray-800 text-xl font-poppins">
+            <main ref={ref} style={{ opacity: inView ? 1 : 0 }} className="pb-40 flex flex-col space-y-20 justify-between px-8 pt-16 xl:px-52 xl:pt-32 text-gray-800 text-xl font-poppins transition-all duration-1000 ease-in">
 
                 {/* landing -> hero text */}
                 <div className="flex justify-between flex-col space-y-6 xl:space-y-8">

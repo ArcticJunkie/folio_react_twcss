@@ -1,7 +1,7 @@
 //packages
-//import React, { useRef } from 'react';
-// import { useIntersection } from "react-use";
-// import gsap from "gsap";
+import React from 'react';
+import { useInView } from 'react-intersection-observer';
+
 //components
 //images
 import unicodes from '../unicodes_ss.png'
@@ -9,6 +9,15 @@ import grades from '../grades_ss.png'
 
 
 function Works() {
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        rootMargin: '-300px 0px',
+    });
+
+    const [ref2, inView2] = useInView({
+        triggerOnce: true,
+        rootMargin: '-200px 0px',
+    });
 
     // const sectionRef = useRef(null);
     // const intersection = useIntersection(sectionRef, {
@@ -50,7 +59,7 @@ function Works() {
             <main className="flex flex-col space-y-12 justify-between px-8 pt-10 xl:px-52 xl:py-32 text-gray-800 text-xl font-poppins">
                 <span className="text-2xl xl:text-4xl font-normal">Work</span>
                 <div className="flex flex-col space-y-32">
-                    <div className="flex flex-col">
+                    <div ref={ref2} style={{ opacity: inView2 ? 1 : 0 }} className="bg-blue-100 transition-all duration-1000 ease-in-out flex flex-col">
                         <a href="https://navs-unicodes.vercel.app" target=" _blank"><span className="text-lg xl:text-2xl font-medium font-dmono">navs-unicodes</span></a>
                         <div className="xl:w-160 mt-2">
                             <span className="text-sm leading-tight  font-normal xl:font-normal xl:text-base text-gray-700">A React app that allows access to special characters via quick keyword search. Allows users to copy these characters to their clipboards in seconds, designed to speed up essay and technical report writing.</span>
@@ -80,7 +89,7 @@ function Works() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col">
+                    <div ref={ref} style={{ opacity: inView ? 1 : 0 }} className="flex flex-col transition-all duration-1000 ease-in-out">
                         <a href="https://dribbble.com/navs-dribbble" target=" _blank"><span className="text-lg xl:text-2xl font-medium font-dmono">Webadvisor Redesign</span></a>
                         <div className="xl:w-160 mt-2">
                             <span className="text-sm leading-tight  font-normal xl:font-normal xl:text-base text-gray-700">A redesign of University of Guelph’s administration portal. Designed to elevate the student user experience.</span>
