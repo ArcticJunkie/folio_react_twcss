@@ -59,7 +59,7 @@ function Works() {
             <main className="flex flex-col space-y-12 justify-between px-8 pt-10 xl:px-52 xl:py-32 text-gray-800 text-xl font-poppins">
                 <span className="text-2xl xl:text-4xl font-normal">Work</span>
                 <div className="flex flex-col space-y-32">
-                    <div ref={ref2} style={{ opacity: inView2 ? 1 : 0 }} className="bg-blue-100 transition-all duration-1000 ease-in-out flex flex-col">
+                    <div ref={ref2} style={{ opacity: inView2 ? 1 : 0 }} className="transition-all duration-1000 ease-in-out flex flex-col">
                         <a href="https://navs-unicodes.vercel.app" target=" _blank"><span className="text-lg xl:text-2xl font-medium font-dmono">navs-unicodes</span></a>
                         <div className="xl:w-160 mt-2">
                             <span className="text-sm leading-tight  font-normal xl:font-normal xl:text-base text-gray-700">A React app that allows access to special characters via quick keyword search. Allows users to copy these characters to their clipboards in seconds, designed to speed up essay and technical report writing.</span>
