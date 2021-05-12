@@ -1,7 +1,4 @@
 import { useSpring, animated } from 'react-spring'
-import unicodes from '../unicodes_ss.png'
-
-
 function HeroImage() {
     const spring = useSpring({
         from: {

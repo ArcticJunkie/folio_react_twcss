@@ -47,6 +47,15 @@ module.exports = {
         poppins: ['Poppins'],
         dmono: ['DM Mono']
       },
+      keyframes: {
+        slideleft: {
+          '0%': { transform: 'translateX(40px)' },
+          '100%': { transform: 'translateX(0px)' },
+        }
+      },
+      animation: {
+        'slideleft': 'slideleft 1s ease-in-out'
+      },
     },
   },
   variants: {

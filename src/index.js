@@ -5,7 +5,6 @@ import reportWebVitals from './reportWebVitals';
 
 //components
 import Nav from './components/Nav'
-import About from './components/About'
 import Landing from './components/Landing'
 import Works from './components/Works'
 import Footer from './components/Footer'
