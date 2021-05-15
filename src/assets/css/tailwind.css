@@ -35611,6 +35611,16 @@ video {
   }
 }
 
+@keyframes slideup {
+  0% {
+    transform: translateY(-45px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 .animate-none {
   animation: none;
 }
@@ -35633,6 +35643,10 @@ video {
 
 .animate-slideleft {
   animation: slideleft 1s ease-in-out;
+}
+
+.animate-slideup {
+  animation: slideup 1s ease-in-out;
 }
 
 @media (min-width: 640px) {
@@ -70676,6 +70690,10 @@ video {
 
   .sm\:animate-slideleft {
     animation: slideleft 1s ease-in-out;
+  }
+
+  .sm\:animate-slideup {
+    animation: slideup 1s ease-in-out;
   }
 }
 
@@ -105721,6 +105739,10 @@ video {
   .md\:animate-slideleft {
     animation: slideleft 1s ease-in-out;
   }
+
+  .md\:animate-slideup {
+    animation: slideup 1s ease-in-out;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -140764,6 +140786,10 @@ video {
 
   .lg\:animate-slideleft {
     animation: slideleft 1s ease-in-out;
+  }
+
+  .lg\:animate-slideup {
+    animation: slideup 1s ease-in-out;
   }
 }
 
@@ -175809,6 +175835,10 @@ video {
   .xl\:animate-slideleft {
     animation: slideleft 1s ease-in-out;
   }
+
+  .xl\:animate-slideup {
+    animation: slideup 1s ease-in-out;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -210852,5 +210882,9 @@ video {
 
   .\32xl\:animate-slideleft {
     animation: slideleft 1s ease-in-out;
+  }
+
+  .\32xl\:animate-slideup {
+    animation: slideup 1s ease-in-out;
   }
 }
