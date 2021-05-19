@@ -4,15 +4,15 @@ import { useInView } from 'react-intersection-observer';
 function Project(props) {
     const [titleRef, titleInView] = useInView({
         triggerOnce: true,
-        rootMargin: '-150px 0px',
+        rootMargin: '-100px 0px',
     });
     const [bodyRef, bodyInView] = useInView({
         triggerOnce: true,
-        rootMargin: '-150px 0px',
+        rootMargin: '-100px 0px',
     });
     const [subsRef, subsInView] = useInView({
         triggerOnce: true,
-        rootMargin: '-150px 0px',
+        rootMargin: '-100px 0px',
     });
     return (
         <div className="flex flex-col">

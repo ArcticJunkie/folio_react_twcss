@@ -20,7 +20,7 @@ function Works() {
     const unicodes = {
         title: 'navs-unicodes',
         body: 'A React app that allows access to special characters via quick keyword search. Allows users to copy these characters to their clipboards in seconds, designed to speed up essay and technical report writing.',
-        dev: ['React', 'TailwindCSS', 'Vercel'],
+        dev: ['React', 'TailwindCSS', 'Vercel'], 
         design: ['UI design', 'Wireframes'],
         link: 'https://navs-unicodes.vercel.app/'
     }
