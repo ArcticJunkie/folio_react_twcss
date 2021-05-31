@@ -6,7 +6,7 @@ import TypeWriter from './TypeWriter';
 
 function App() {
   return (
-    <div className="App h-screen bg-blue-50">
+    <div className="App overflow-x-hidden w-screen h-screen bg-blue-50">
 
 
       <main className="flex flex-col space-y-8 justify-between px-8 pt-10 md:px-36 md:pt-12 lg:px-52 lg:pt-16 xl:px-96 xl:pt-32 md:flex-row md:space-y-0 md:space-x-16  text-gray-800 text-xl font-poppins">

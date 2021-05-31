@@ -1,4 +1,3 @@
-import { useInView } from 'react-intersection-observer';
 
 //packages
 import React from 'react';
@@ -9,19 +8,24 @@ import Project from './Project'
 //images
 import unicodesimg from '../unicodes_ss.png'
 import webadvisorimg from '../grades_ss.png'
+import raofolioimg from '../img/raofolio_ss.png'
 
 
 function Works() {
-    const [ref, inView] = useInView({
-        triggerOnce: true,
-        rootMargin: '-50px 0px',
-    });
+    const raofolio = {
+        title: 'raofolio',
+        test: {},
+        body: 'A fashion model portfolio website built with React. Features sequential, scroll-based animations triggered by an intersection observer. ',
+        dev: ['React', 'TailwindCSS', 'Intersection Observer', 'Sequential Animations', 'Image CDN'],
+        design: ['UI design', 'Wireframes', 'Typography'],
+        link: 'https://www.raofolio.in'
+    }
 
     const unicodes = {
         title: 'navs-unicodes',
         body: 'A React app that allows access to special characters via quick keyword search. Allows users to copy these characters to their clipboards in seconds, designed to speed up essay and technical report writing.',
-        dev: ['React', 'TailwindCSS', 'Vercel'], 
-        design: ['UI design', 'Wireframes'],
+        dev: ['React', 'TailwindCSS', 'Vercel'],
+        design: ['UI design'],
         link: 'https://navs-unicodes.vercel.app/'
     }
     const webadvisor = {
@@ -41,6 +45,12 @@ function Works() {
                     <span className="text-2xl xl:text-4xl font-normal">Work</span>
                 </div>
                 <div className="flex flex-col space-y-32">
+                    <Project title={raofolio.title}
+                        body={raofolio.body}
+                        img={raofolioimg}
+                        link={raofolio.link}
+                        dev={raofolio.dev}
+                        design={raofolio.design} />
                     <Project title={unicodes.title}
                         body={unicodes.body}
                         img={unicodesimg}

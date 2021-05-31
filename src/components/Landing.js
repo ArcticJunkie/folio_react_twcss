@@ -12,7 +12,7 @@ function Landing() {
     });
 
     return (
-        <div className="App bg-gray-50">
+        <div className="bg-gray-50">
             <main ref={ref} style={{ opacity: inView ? 1 : 0 }} className="pb-40 flex flex-col space-y-20 px-8 pt-16 xl:px-52 xl:pt-32 text-gray-800 text-xl font-poppins transition-all duration-1000 ease-in">
                 <div className="flex justify-between flex-col space-y-6 xl:space-y-8">
                     <div className="flex flex-col space-y-10">
