@@ -4,7 +4,7 @@ import Nav from "./Nav";
 
 function Landing() {
     return (
-        <div className=" bg-contain">
+        <div className="bg-gray-50">
             <Nav />
             <Intro />
         </div>

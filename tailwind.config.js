@@ -22,7 +22,8 @@ module.exports = {
       },
       fontFamily: {
         poppins: ['Poppins'],
-        dmono: ['DM Mono']
+        dmono: ['DM Mono'],
+        space: ['Space Mono']
       },
       keyframes: {
         slideleft: {

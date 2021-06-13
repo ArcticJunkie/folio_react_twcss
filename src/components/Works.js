@@ -20,16 +20,15 @@ function Works() {
     });
     const raofolio = {
         title: 'raofolio',
-        test: {},
-        body: 'A fashion model portfolio website built with React. Features sequential, scroll-based animations triggered by an intersection observer. ',
-        dev: ['React', 'TailwindCSS', 'Intersection Observer', 'Sequential Animations', 'Image CDN'],
+        body: "Tailoring an online presence for a fashion model.",
+        dev: ['React', 'TailwindCSS', 'Sequential Animations', 'Cloudinary CDN'],
         design: ['UI design', 'Wireframes', 'Typography'],
         link: 'https://www.raofolio.in'
     }
 
     const unicodes = {
         title: 'navs-unicodes',
-        body: 'A React app that allows access to special characters via quick keyword search. Allows users to copy these characters to their clipboards in seconds, designed to speed up essay and technical report writing.',
+        body: 'Making special characters more accessible with this pocket-sized React app.',
         dev: ['React', 'TailwindCSS', 'Vercel'],
         design: ['UI design'],
         link: 'https://navs-unicodes.vercel.app/'
@@ -44,13 +43,12 @@ function Works() {
 
 
     return (
-
-        <div className="h-full bg-gray-100  text-gray-800 font-poppins font-light text-xl">
-            <main className={"flex flex-col space-y-12 justify-between px-8 py-10 xl:px-52 xl:py-40 text-gray-800 text-xl font-poppins transition-all duration-700 ease-out" + (inView ? ' bg-triangle' : 'bg-gray-100')}>
+        <div className="h-full bg-gray-100  text-gray-800 font-poppins text-xl">
+            <main className={" px-8 py-10 xl:px-52 xl:py-40 text-gray-800 text-xl font-poppins transition-all duration-700 ease-out bg-white bg-triangle"}>
                 <div className={(inView ? 'animate-slideup' : 'animate-none')}>
-                    <h1 ref={ref} style={{ opacity: inView ? 1 : 0 }} className={"text-2xl xl:text-4xl font-normal transition-all duration-700 ease-out"} >Work</h1>
+                    <h1 ref={ref} style={{ opacity: inView ? 1 : 0 }} className={"text-2xl xl:text-5xl font-normal transition-all duration-700 ease-out"}>Projects</h1>
                 </div>
-                <div className="flex flex-col space-y-32">
+                <div className="mt-10 xl:mt-20 flex flex-col space-y-32">
                     <Project title={raofolio.title}
                         body={raofolio.body}
                         img={raofolioimg}
@@ -63,6 +61,11 @@ function Works() {
                         link={unicodes.link}
                         dev={unicodes.dev}
                         design={unicodes.design} />
+                    {/* <Project title={webadvisor.title}
+                        body={webadvisor.body}
+                        img={webadvisorimg}
+                        dev={webadvisor.dev}
+                        design={webadvisor.design} /> */}
                 </div>
             </main>
         </div >
