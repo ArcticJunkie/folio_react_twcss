@@ -3,11 +3,11 @@ import Typical from 'react-typical';
 
 function TypeWriter() {
     return (
-        <span className="font-poppins text-gray-800"><Typical
+        <div className="inline"><Typical
             loop={2}
             wrapper="span"
             steps={[
-                2250,
+                2500,
                 ' experiences.',
                 4000,
                 ' interfaces.',
@@ -15,7 +15,7 @@ function TypeWriter() {
                 ' websites.',
                 6000
             ]}
-        /></span>
+        /></div>
     );
 }
 

@@ -12,7 +12,6 @@ import Footer from './components/Footer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
     <Landing />
     <Works />
     <Footer />

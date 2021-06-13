@@ -8,6 +8,11 @@ module.exports = {
     extend: {
       colors: {
       },
+      backgroundImage: theme => ({
+        'pattern': "url('../img/pattern.png')",
+        'triangle': "url('../img/triangle.png')",
+        'dot': "url('../img/dot.png')",
+      }),
       spacing: {
         '128': '32rem',
         '160': '40rem'
@@ -25,13 +30,13 @@ module.exports = {
           '100%': { transform: 'translateX(0px)' },
         },
         slideup: {
-          '0%': { transform: 'translateY(-45px)' },
+          '0%': { transform: 'translateY(20px)' },
           '100%': { transform: 'translateX(0px)' },
         }
       },
       animation: {
-        'slideleft': 'slideleft 1s ease-in-out',
-        'slideup': 'slideup 1s ease-in-out'
+        'slideleft': 'slideleft 0.5s ease-out',
+        'slideup': 'slideup 3s ease-in-out'
       },
     },
   },
